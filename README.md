@@ -11,7 +11,7 @@ var getBrightness = Luminum.getColorBrightness();
 ___
 <code>new Luminum()</code> requires one parameter, that is the hex color(with or without "#") or rgb color (with or without "rgb(...)").
 
-<code>getColorBrightness()</code> return a boolean variable, <b>true</b> if the color is light, <b>false</b> if the color is dark.
+<code>getColorBrightness()</code> return a boolean value, <b>true</b> if the color is light, <b>false</b> if the color is dark.
 ###Set tollerance
 ___
 You can modify the brightness threshold when you need to consider a color dark for, for example, mantain the color of text light. The tollerance is between 0 and 125.
