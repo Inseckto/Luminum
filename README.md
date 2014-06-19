@@ -1,4 +1,40 @@
-Luminum
-=======
+#Luminum.js
+A script that determines color brightness from hex or rgb color.
+##How to use?
+It's very simple to use it, just 2 lines
+```js
+  var Luminum = new Luminum("#bf2e2e");
+  var getBrightness = Luminum.getColorBrightness();
+```
+___
+<code>new Luminum()</code> requires one parameter, that is the hex color(with or without "#") or rgb color (with or without "rgba(...)").
 
-Determines color brightness.
+<code>getColorBrightness()</code> return a boolean variable, <b>true</b> if the color is light, <b>false</b> if the color is dark.
+###Set tollerance
+___
+You can modify the brightness threshold when you need to consider a color dark for, for example, mantain the color of text light. The tollerance is between 0 and 125.
+
+<code>Luminum.tollerance = 30;</code>
+
+##Example
+Now, for example, you can use <i>Luminum</i> to change the color of a text if the parent background-color is light or dark.
+```html
+<div id="background">
+  <p>My text
+</div>
+```
+```js
+// background-color from #background
+var Color = $('#background').css('backgroundColor');
+
+Luminum = new Luminum(Color);
+var getBrightness = Luminum.getColorBrightness();
+  
+if(getBrightness) {
+	$('#background > p').css('color', 'black');
+} else 
+{
+	$('#background > p').css('color', 'white');
+}	
+```
+
