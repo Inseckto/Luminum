@@ -14,8 +14,11 @@ ___
 ___
 You can modify the brightness threshold when you need to consider a color dark for, for example, mantain the color of text light. The tollerance is between 0 and 125.
 
-<code>Luminum.tollerance = 30;</code>
-
+```js
+Luminum = new Luminum(Color);
+Luminum.tollerance = 10;
+var getBrightness = Luminum.getColorBrightness();
+```
 ##Example
 Now, for example, you can use <i>Luminum</i> to change the color of a text if the parent background-color is light or dark.
 ```html
