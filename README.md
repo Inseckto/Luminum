@@ -43,3 +43,4 @@ if(getBrightness) {
 	$('#background > p').css('color', 'white');
 }	
 ```
+<i>In this example si used jQuery library</i>
