@@ -30,7 +30,8 @@
 		}
 		else {
 		this.colorBright = false;
-		}	
+		}
+		
 		return this.colorBright;
 	};	
 	
