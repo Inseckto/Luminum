@@ -40,7 +40,7 @@
 		var g = rgbColor[1];
 		var b = rgbColor[2];	
 		var brightness = (((r*299) + (g*587) + (b*114)) / 1000) - this.tollerance;
-	
+
 		return brightness;	
 	};	
 	
