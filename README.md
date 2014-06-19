@@ -9,7 +9,7 @@ var Luminum = new Luminum("#bf2e2e");
 var getBrightness = Luminum.getColorBrightness();
 ```
 ___
-<code>new Luminum()</code> requires one parameter, that is the hex color(with or without "#") or rgb color (with or without "rgba(...)").
+<code>new Luminum()</code> requires one parameter, that is the hex color(with or without "#") or rgb color (with or without "rgb(...)").
 
 <code>getColorBrightness()</code> return a boolean variable, <b>true</b> if the color is light, <b>false</b> if the color is dark.
 ###Set tollerance
