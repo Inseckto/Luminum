@@ -25,7 +25,7 @@ var getBrightness = Luminum.getColorBrightness();
 Now, for example, you can use <i>Luminum</i> to change the color of a text if the parent background-color is light or dark.
 ```html
 <div id="background">
-  <p>My text
+  <p>My text</p>
 </div>
 ```
 ```js
