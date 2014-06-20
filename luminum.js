@@ -50,7 +50,7 @@
 		var r = (bigint >> 16) & 255;
 		var g = (bigint >> 8) & 255;
 		var b = bigint & 255;	
-		var brightness = ((r*299) + (g*587) + (b*114)) / 1000;
+		var brightness = (((r*299) + (g*587) + (b*114)) / 1000) - this.tollerance;
 	
 		return brightness;	
 	};
