@@ -3,8 +3,7 @@ A script that determines color brightness from hex or rgb color.
 ##How to use?
 It's very simple to use, just 2 lines
 ```js
-var Luminum = new Luminum("#bf2e2e");
-//or var Luminum = new Luminum("rgb(191,46,46)");
+var Luminum = new Luminum("#bf2e2e"); //or new Luminum("rgb(191,46,46)");
 var getBrightness = Luminum.getColorBrightness();
 ```
 ___
