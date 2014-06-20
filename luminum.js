@@ -28,9 +28,6 @@
 		if(brightness>130) {
 		this.colorBright = true;
 		}
-		else {
-		this.colorBright = false;
-		}
 		
 		return this.colorBright;
 	};	
