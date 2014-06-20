@@ -1,3 +1,6 @@
+<p align="center">
+<img src="https://cloud.githubusercontent.com/assets/7937110/3344610/57504ea6-f8ad-11e3-8493-1da896924b94.png">
+</p>
 #Luminum.js
 A script that determines color brightness from hex or rgb color.
 ##How to use?
