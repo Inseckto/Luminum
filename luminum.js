@@ -34,7 +34,6 @@
 		}		
 
 		this.brightnessOffset = this.brightness - (130 - this.tollerance);
-
 		return this.colorBright;
 	};	
 	
