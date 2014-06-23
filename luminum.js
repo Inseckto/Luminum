@@ -33,7 +33,7 @@
 		this.colorBright = false;
 		}		
 
-		this.brightnessOffset = this.brightness - (130 - this.tollerance);
+		this.brightnessOffset = this.brightness - 130;
 		return this.colorBright;
 	};	
 	
