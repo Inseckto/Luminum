@@ -53,4 +53,4 @@ Attribute | Description | Released
 `brightness` | contains the color brightness value | 1.1
 `brightnessOffset` | contains the offset between the color brightness and the brightness threshold | 1.1
 `colorBright` | contains a boolean value returned by `getColorBrightness()` (read **How to use?**) | 1.0
-`tollerance` |  read Setting tollerance (read **Setting tollerance**) | 1.0
+`tollerance` | read **Setting tollerance** | 1.0
