@@ -57,3 +57,5 @@ Luminum.prototype.hexColorBrightness = function() {
 Luminum.prototype.getContrastColor = function() {
     return this.getColorBrightness() ? '#000000' : '#ffffff';
 };
+
+export default Luminum;
